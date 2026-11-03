@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#2CC2B5">
+  <meta name="description" content="Aaditya Patil — AI & ML student, developer and creator.">
+  <title>Aaditya Patil — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer src="js/character.js"></script>
+  <script defer src="js/animations.js"></script>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Aaditya Patil home">
+      <span class="brand-mark"><i></i><i></i><i></i></span>
+      <span>AADITYA PATIL<sup>®</sup></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#projects">PROJECTS</a>
+      <a href="#playground">PLAYGROUND</a><a href="#contact">CONTACT</a>
+    </nav>
+    <span class="availability"><span></span> OPEN TO IDEAS</span>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-topline mono"><span>PORTFOLIO / 2026</span></div>
+      <div class="hero-copy">
+        <p class="eyebrow" aria-label="AI and ML student, developer, creator, and idea maker">
+          <span class="eyebrow-dot" aria-hidden="true"></span>
+          <span class="eyebrow-roles" aria-hidden="true">AI &amp; ML STUDENT</span>
+        </p>
+        <h1><span>HELLO</span><span class="world-line">WORLD<span class="punct">!</span></span></h1>
+        <p class="hero-subtitle">I'M AADITYA.<br><span>I MAKE IDEAS COME ALIVE.</span></p>
+      </div>
+
+      <div class="mascot-stage" id="mascotStage" aria-label="Interactive robot mascot">
+        <span class="orbit orbit-one"></span><span class="orbit orbit-two"></span>
+        <span class="spark spark-a">✳</span><span class="spark spark-b">+</span>
+        <div class="mascot" id="mascot" role="button" tabindex="0" aria-label="Click the robot to make it react">
+          <svg class="robot-svg" viewBox="0 0 300 350" role="img" aria-label="A friendly yellow robot mascot">
+            <g class="antenna">
+              <path d="M150 49 V25" stroke="#202344" stroke-width="9" stroke-linecap="round"/>
+              <circle cx="150" cy="17" r="13" fill="#FF696B" stroke="#202344" stroke-width="7"/>
+            </g>
+            <path d="M93 265 L82 313 Q80 324 94 326 H119 L132 270 M207 265 L218 313 Q220 324 206 326 H181 L168 270" fill="#8265F5" stroke="#202344" stroke-width="9" stroke-linejoin="round"/>
+            <path d="M78 181 Q42 175 34 205 Q29 228 61 238 L91 228" fill="none" stroke="#202344" stroke-width="17" stroke-linecap="round"/>
+            <g class="wave-arm">
+              <path d="M222 181 Q258 175 266 205 Q271 228 239 238 L209 228" fill="none" stroke="#202344" stroke-width="17" stroke-linecap="round"/>
+            </g>
+            <path d="M87 235 Q150 255 213 235 L224 289 Q150 320 76 289 Z" fill="#F8F8F5" stroke="#202344" stroke-width="9" stroke-linejoin="round"/>
+            <rect x="67" y="57" width="166" height="178" rx="57" fill="#FFD43B" stroke="#202344" stroke-width="10"/>
+            <path d="M96 75 Q150 52 204 75" fill="none" stroke="#FFF0A5" stroke-width="9" stroke-linecap="round"/>
+            <g class="eyes">
+              <ellipse class="eye" cx="119" cy="139" rx="15" ry="20" fill="#202344"/>
+              <ellipse class="eye" cx="181" cy="139" rx="15" ry="20" fill="#202344"/>
+              <circle cx="114" cy="132" r="4" fill="#fff"/><circle cx="176" cy="132" r="4" fill="#fff"/>
+            </g>
+            <path class="mouth" d="M129 181 Q150 199 171 181" fill="none" stroke="#202344" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="88" cy="169" r="9" fill="#FF9B8E" opacity=".8"/><circle cx="212" cy="169" r="9" fill="#FF9B8E" opacity=".8"/>
+            <path d="M106 276 H194" stroke="#202344" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="150" cy="276" r="7" fill="#FF696B"/>
+          </svg>
+          <span class="mascot-hint mono">TAP TO SAY HI</span>
+        </div>
+        <span class="shape shape-circle"></span><span class="shape shape-triangle"></span>
+        <span class="shape shape-square"></span>
+      </div>
+      <a class="scroll-cue mono" href="#about"><span>SCROLL TO EXPLORE</span><i>↓</i></a>
+      <span class="hero-index mono">01 — 05</span>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-kicker mono"><span>A LITTLE INTRO</span><span></span></div>
+      <div class="about-grid">
+        <h2 class="display-heading">SO, WHO'S<br><span>BEHIND ALL</span><br>THIS<span class="coral">?</span></h2>
+        <div class="about-note">
+          <span class="asterisk">✳</span>
+          <p>I'm Aaditya, an AI & ML student who enjoys building things, experimenting with technology and bringing creative ideas to life.</p>
+          <div class="about-facts">
+            <div><small>BASED IN</small><strong>INDIA <span>↗</span></strong></div>
+            <div><small>STUDYING</small><strong>BTECH — AI & ML</strong></div>
+            <div><small>INTO</small><strong>CODE / DESIGN / IDEAS</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="about-bottom mono"><span>THINK IT. MAKE IT. BREAK IT. MAKE IT BETTER.</span><span>✳</span></div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-kicker mono"><span>FEATURED PROJECTS</span><span>A FEW THINGS FROM THE WORKBENCH</span></div>
+      <div class="projects-heading">
+        <h2 class="display-heading">LESS TALK.<br><span>MORE MAKING.</span></h2>
+        <p class="mono">A SMALL COLLECTION<br>OF EXPERIMENTS & BUILDS ↘</p>
+      </div>
+      <div class="project-list" id="projectList"></div>
+      <p class="project-foot mono">MORE IDEAS ARE CURRENTLY IN THE WORKSHOP <span>✳</span></p>
+    </section>
+
+    <section class="playground section" id="playground">
+      <div class="section-kicker mono"><span>03 / THE PLAYGROUND</span><span>TOOLS, TOPICS & HAPPY ACCIDENTS</span></div>
+      <h2 class="display-heading">THINGS I LIKE<br><span>PLAYING WITH.</span></h2>
+      <p class="playground-intro">A mix of logic, pixels and curiosity. Pick a label and see what happens.</p>
+      <div class="play-tags" id="playTags">
+        <button class="play-tag tag-yellow" data-note="Making small programs and solving problems, one loop at a time.">PYTHON <span>↗</span></button>
+        <button class="play-tag tag-coral" data-note="Turning ideas into pages people can actually use.">HTML <span>↗</span></button>
+        <button class="play-tag tag-purple" data-note="Layouts, colour, spacing and the little details.">CSS <span>↗</span></button>
+        <button class="play-tag tag-light" data-note="Adding interactions and making the browser feel alive.">JAVASCRIPT <span>↗</span></button>
+        <button class="play-tag tag-navy" data-note="Exploring how machines can learn from data.">AI & MACHINE LEARNING <span>↗</span></button>
+        <button class="play-tag tag-yellow" data-note="Making digital experiences clear, useful and memorable.">UI / UX DESIGN <span>↗</span></button>
+        <button class="play-tag tag-coral" data-note="Editing clips and shaping a story through visuals.">VIDEO EDITING <span>↗</span></button>
+        <button class="play-tag tag-light" data-note="Trying things just to discover what is possible.">CREATIVE EXPERIMENTS <span>↗</span></button>
+      </div>
+      <div class="tag-note mono" id="tagNote" aria-live="polite">← HOVER OR TAP A LABEL</div>
+      <div class="spark-game" id="sparkGame">
+        <div class="spark-game-heading">
+          <div>
+            <p class="spark-game-kicker mono">A TINY INTERACTIVE EXPERIMENT</p>
+            <h3>CATCH THE <span>SPARK.</span></h3>
+          </div>
+          <span class="spark-game-time mono">15 SEC CHALLENGE</span>
+        </div>
+        <div class="spark-game-stats mono" aria-label="Game score">
+          <div><span>SCORE</span><strong id="sparkScore">00</strong></div>
+          <div><span>TIME</span><strong><span id="sparkTime">15</span><small> SEC</small></strong></div>
+        </div>
+        <div class="spark-board" id="sparkBoard" aria-label="Catch the moving spark game area">
+          <span class="spark-board-mark spark-board-mark-one" aria-hidden="true">✳</span>
+          <span class="spark-board-mark spark-board-mark-two" aria-hidden="true">+</span>
+          <p class="spark-game-message" id="sparkMessage" aria-live="polite">Ready to play?<br><span>Catch as many sparks as you can.</span></p>
+          <button class="spark-target" id="sparkTarget" type="button" aria-label="Catch the spark" hidden>✦</button>
+        </div>
+        <div class="spark-game-footer">
+          <p class="mono" id="sparkHint">15 seconds. One spark. How many can you catch?</p>
+          <button class="spark-start" id="sparkStart" type="button">START PLAYING <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <span class="playground-stamp">MAKE<br>MORE<br>STUFF.</span>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-kicker mono"><span>04 / YOUR TURN</span><span>THE NEXT GOOD IDEA COULD START HERE</span></div>
+      <div class="contact-content">
+        <p class="mono contact-overline">GOT A PROJECT, A QUESTION OR A RANDOM IDEA?</p>
+        <h2>HAVE SOMETHING<br><span>COOL IN MIND<span class="yellow">?</span></span></h2>
+        <a class="contact-cta" href="mailto:your-email@example.com">LET'S MAKE IT HAPPEN <span>↗</span></a>
+      </div>
+      <footer class="site-footer">
+        <a class="brand footer-brand" href="#home"><span class="brand-mark"><i></i><i></i><i></i></span><span>AADITYA PATIL<sup>®</sup></span></a>
+        <div class="social-links mono">
+          <a href="https://www.linkedin.com/in/iaadityapatil/" target="_blank" rel="noopener noreferrer">LINKEDIN ↗</a>
+          <a href="https://github.com/itzaadityaaaa" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+          <a href="https://www.instagram.com/itz_aadityaaaa/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+        </div>
+        <span class="copyright mono">© 2026 / MADE WITH CURIOSITY</span>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
